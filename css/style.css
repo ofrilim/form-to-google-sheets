@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Work+Sans&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;}
+html, body {
+    display: flex; flex-direction: column; justify-content: space-between;
+    color: white; font-size: 1.4em; height: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/05/10/14/bled-2582655_1280.jpg");
+    background-repeat: no-repeat; background-size: cover;}
+div.header {
+    font-size: 1.5em;
+    display: flex; flex-direction: column;
+    padding: 40px 20px;}
+h1.header {
+    color:hsla(267, 9%, 95%, 1);
+    letter-spacing: 2px; 
+    font-family: 'Montserrat Alternates', sans-serif;}
+h1.gs {
+    align-self: center;
+    color:hsla(267, 10%, 52%, 1); 
+    letter-spacing: 6px;
+    font-family:'Kaushan Script';}
+form {
+    width: 520px;
+    padding: 20px;
+    display: flex; flex-direction: column;}
+form div {
+    padding-bottom: 15px;
+    display: flex; justify-content: space-between;}
+form input , button {
+    width: 50%; 
+    padding: 10px; 
+    border-radius: 5px;}
+button {
+    border-color: rgb(86, 73, 102);
+    color: rgb(86, 73, 102);
+    margin: 20px auto; 
+    font-size: 0.8em;
+    background-color: rgb(227, 222, 233);}
+button:hover {
+    color: white;
+    border-color: white;
+    background-color: hsla(267, 10%, 52%, 1);}
+footer {
+    padding: 20px;
+    font-size: 0.5em;
+    align-self: center;}
+
+@media (max-width: 700px) {
+    div.header {
+        font-size: 1.1em;}
+    h1.header {
+        color: white;}
+    h1.gs {
+        align-self: flex-end;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
+    form {
+        width: 100%;
+        font-size: 0.9em;}
+    footer {
+        font-size: 0.4em;
+    }
+}
+    
