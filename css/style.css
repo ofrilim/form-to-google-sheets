@@ -6,7 +6,7 @@
     box-sizing: border-box;}
 html, body {
     display: flex; flex-direction: column; justify-content: space-between;
-    color: white; font-size: 1.4em; height: 100%;
+    color: white; font-size: 1.4em;
     font-family: 'Montserrat Alternates', sans-serif;
     background-image: url("https://cdn.pixabay.com/photo/2017/08/05/10/14/bled-2582655_1280.jpg");
     background-repeat: no-repeat; background-size: cover;}
@@ -51,17 +51,28 @@ footer {
 
 @media (max-width: 700px) {
     div.header {
-        font-size: 1.1em;}
+        padding: 20px 10px;
+        font-size: 6vw;}
     h1.header {
         color: white;}
     h1.gs {
         align-self: flex-end;
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
     form {
-        width: 100%;
-        font-size: 0.9em;}
+        width: 100vw;
+        padding: 5px;
+        font-size: 6vw;}
+    form div {
+        flex-wrap: wrap;}
+    form input {
+        padding: 5px;}
     footer {
         font-size: 0.4em;
+    }
+    .contact {
+        display: block;
+        padding-top: 5px;
+        text-align: center;
     }
 }
     
