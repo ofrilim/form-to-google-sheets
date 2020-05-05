@@ -6,7 +6,7 @@
     box-sizing: border-box;}
 html, body {
     display: flex; flex-direction: column; justify-content: space-between;
-    color: white; font-size: 1.4em;
+    color: white; font-size: 1.4em; min-height: -webkit-fill-available;
     font-family: 'Montserrat Alternates', sans-serif;
     background-image: url("https://cdn.pixabay.com/photo/2017/08/05/10/14/bled-2582655_1280.jpg");
     background-repeat: no-repeat; background-size: cover;}
@@ -51,8 +51,8 @@ footer {
 
 @media (max-width: 700px) {
     div.header {
-        padding: 20px 10px;
-        font-size: 6vw;}
+        padding: 40px 10px;
+        font-size: 7vw;}
     h1.header {
         color: white;}
     h1.gs {
@@ -61,11 +61,11 @@ footer {
     form {
         width: 100vw;
         padding: 5px;
-        font-size: 6vw;}
+        font-size: 7vw;}
     form div {
         flex-wrap: wrap;}
     form input {
-        padding: 5px;}
+        padding: 8px;}
     footer {
         font-size: 0.4em;
     }
