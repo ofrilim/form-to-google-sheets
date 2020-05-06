@@ -24,7 +24,7 @@ h1.gs {
     letter-spacing: 6px;
     font-family:'Kaushan Script';}
 form {
-    width: 520px;
+    width: 560px;
     padding: 20px;
     display: flex; flex-direction: column;}
 form div {
@@ -39,6 +39,7 @@ button {
     color: rgb(86, 73, 102);
     margin: 20px auto; 
     font-size: 0.8em;
+    transition: 0.3s;
     background-color: rgb(227, 222, 233);}
 button:hover {
     color: white;
@@ -48,20 +49,27 @@ footer {
     padding: 20px;
     font-size: 0.5em;
     align-self: center;}
+a {
+    transition: transform .2s;
+    color: white;
+    text-decoration: none;}
+a:hover {
+    transform: scale(1.5);
+    text-decoration-line: underline;}
 
 @media screen and (max-width: 800px) {
     div.header {
-        padding: 40px 20px;
-        font-size: 6vw;}
+        font-size: 6vw;
+        padding: 40px 20px;}
     h1.header {
         color: white;}
     h1.gs {
         align-self: flex-end;
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
     form {
+        font-size: 5vw;
         width: 100vw;
-        padding: 15px;
-        font-size: 5vw;}
+        padding: 15px;}
     form input {
         padding: 8px;}
     footer {
@@ -74,12 +82,10 @@ footer {
 
 @media screen and (max-width: 500px) {
     div.header {
-        padding: 20px 10px;
-        font-size: 7vw;}
+        padding: 20px 10px;}
     form div {
         display: flex;
-        flex-direction: column;
-        font-size: 6vw;}
+        flex-direction: column;}
     form input , button {
         margin: 10px 0;
         width: 100%; 
