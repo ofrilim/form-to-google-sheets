@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form Data</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <section>
-        <div class="header">
-            <h1 class="header">Collect Data To</h1>
-            <h1 class="gs">Google Sheets</h1>
-        </div>
-        <form name="submit-to-google-sheet">
-            <div>
-                <span class="in-form">First Name: </span>
-                <input name="firstName" type="text" placeholder="Israel">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form Data</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section>
+            <div class="header">
+                <h1 class="header">Collect Data To</h1>
+                <h1 class="gs">Google Sheets</h1>
             </div>
-            <div>
-                <span class="in-form">Last Name: </span>
-                <input name="lastName" type="text" placeholder="Israeli">
-            </div>
-            <div>
-                <span class="in-form">Email Adress: </span>
-                <input name="email" type="email" placeholder="example@gmail.com" required>
-            </div>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-    <footer>
-        <p>@Limor ofri- Frontend Developer. <span class="contact">Contact: ofrilim@gmail.com</span></p>
-    </footer>
-    
-    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-    <script src="js/index.js"></script>    
-</body>
+            <form name="submit-to-google-sheet">
+                <div>
+                    <span class="in-form">First Name: </span>
+                    <input name="firstName" type="text" placeholder="Israel">
+                </div>
+                <div>
+                    <span class="in-form">Last Name: </span>
+                    <input name="lastName" type="text" placeholder="Israeli">
+                </div>
+                <div>
+                    <span class="in-form">Email Address: </span>
+                    <input name="email" type="email" placeholder="example@gmail.com" required>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <footer>
+            <p>@Limor Ofri - Frontend Developer. <span class="contact">Contact: ofrilim@gmail.com</span></p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+        <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+        <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+        <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+        
+        <script src="js/index.js"></script>    
+    </body>
 </html>
 

@@ -49,10 +49,10 @@ footer {
     font-size: 0.5em;
     align-self: center;}
 
-@media (max-width: 700px) {
+@media screen and (max-width: 800px) {
     div.header {
-        padding: 40px 10px;
-        font-size: 7vw;}
+        padding: 40px 20px;
+        font-size: 6vw;}
     h1.header {
         color: white;}
     h1.gs {
@@ -60,19 +60,30 @@ footer {
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
     form {
         width: 100vw;
-        padding: 5px;
-        font-size: 7vw;}
-    form div {
-        flex-wrap: wrap;}
+        padding: 15px;
+        font-size: 5vw;}
     form input {
         padding: 8px;}
     footer {
-        font-size: 0.4em;
-    }
+        font-size: 0.4em;}
     .contact {
         display: block;
         padding-top: 5px;
-        text-align: center;
-    }
+        text-align: center;}
+}
+
+@media screen and (max-width: 500px) {
+    div.header {
+        padding: 20px 10px;
+        font-size: 7vw;}
+    form div {
+        display: flex;
+        flex-direction: column;
+        font-size: 6vw;}
+    form input , button {
+        margin: 10px 0;
+        width: 100%; 
+        padding: 10px; 
+        border-radius: 5px;}
 }
     
